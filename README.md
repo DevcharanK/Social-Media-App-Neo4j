@@ -15,6 +15,8 @@ cd Social-Media-App-Neo4j
 pip install -r requirements.txt
 ```
 **3. Update config.py and database.py with your connection strings**
+`database.py` - Connection details of Neo4j database - local or cloud
+`config.py` - Connection strings of Azure Blob Container - storage account
 
 **4. Run the application**
 ```
